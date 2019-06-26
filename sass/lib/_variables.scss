@@ -1,0 +1,29 @@
+// *****************************
+// +++++++ $VARIABLES ++++++
+// *****************************
+
+// colores de marca
+
+$colores: (
+    azulOscuro: #4C6291,
+    azulLight: #E4EAF7,
+    azulClaro: #C7D7F8,
+    azulMedio: #ABC3F7,
+    azulBoton: #7F8DAA,
+    gris: #707070,
+    blanco: #FFFFFF
+);
+
+$tamanos: (
+    h2: 2.5rem,
+    h3: 1.20rem,
+    h4: 2rem,
+    estandar: 1.3rem
+);
+
+// Mapa para bucle cajas
+$cajas: (
+1: #E4EAF7,
+2: #C7D7F8,
+3: #ABC3F7
+);

@@ -1,0 +1,48 @@
+// *****************************
+// +++++++ $ENLACES ++++++
+// *****************************
+
+
+//Realizamos el header de nuestra página.
+.header{
+    
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: map-get($colores, azulOscuro);
+
+    &__menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+        &__logo{
+            display: flex;
+            justify-content: space-between;
+            align-items: center; 
+            font-size: map-get($tamanos, h2);
+                     
+            
+            & span{
+                margin-left: 10px;
+            }
+        }
+
+        &__opciones{
+            display: flex;
+            justify-content: space-between;
+            flex-basis: 50%;
+
+            & a{
+                font-family: 'HelveticaNeueLight';
+            }
+        }
+    }
+}
+
+
+
+

@@ -1,0 +1,55 @@
+// *****************************
+// +++++++ $TIPOGRAFIA ++++++
+// *****************************
+
+//subimos todas las tipográficas
+@font-face {
+    font-family: 'HelveticaNeueMedium';
+    src: url('../assets/fonts/HelveticaNeueMedium.woff');
+}
+@font-face {
+    font-family: 'HelveticaNeueLightItalic';
+    src: url('../assets/fonts/HelveticaNeueLightItalic.woff');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueBoldItalic';
+    src: url('../assets/fonts/HelveticaNeueBoldItalic.woff');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueBold';
+    src: url('../assets/fonts/HelveticaNeueBold.woff');
+}
+
+//EStablecemos el estilo de la tipografía general de nuestra página
+html{
+    font-size: map-get($tamanos, estandar); 
+}
+a{
+    color: map-get($colores, blanco);
+    font-family: "HelveticaNeueLightItalic";
+    text-decoration: none;
+}
+
+h3{
+    color: map-get($colores, gris);
+    font-family: 'HelveticaNeueBold';
+    font-size: map-get($tamanos, h3);
+}
+
+h4{
+    color: map-get($colores, blanco);
+    font-family: 'HelveticaNeueBoldItalic';
+    font-size: map-get($tamanos, h4);
+}
+
+h2{
+    color: map-get($colores, azulOscuro);
+    font-family: 'HelveticaNeueLightItalic';
+    font-size: map-get($tamanos, h2);
+
+}
+
+
+
